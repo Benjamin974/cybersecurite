@@ -15,7 +15,7 @@ Le nouveau CVE-2021-34527 alias "Print Nightmare" est une vulnérabilité qui af
 
 Le print spooler service  a une fonction appelée RpcAddPrinterDrive, qui permet aux utilisateurs d'ajouter des pilotes à un print spooler distant ; cette activité est normale et est conçue pour permettre aux administrateurs informatiques d'installer à distance des pilotes d'imprimante dans un environnement de bureau. Cependant, en raison d'une faille dans la logique, n'importe quel utilisateur peut ajouter les pilotes sans avoir besoin de privilèges administratifs. Un attaquant peut exploiter la faille et piéger le service pour qu'il installe un pilote permettant l'exécution de commandes sur la machine cible avec les privilèges Système.
 
- Au moment de la rédaction, aucun correctif n'est encore disponible par fournisseur, cependant, des atténuations et des solutions de contournement ont été partagées par Microsoft via cette note de publication. 
+ Au moment de la rédaction, aucun correctif n'est encore disponible par fournisseur, cependant, des atténuations et des solutions de contournement ont été partagées par Microgisoft via cette note de publication. 
 
 
 
